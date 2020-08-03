@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(144, 238, 230);
+    
+
+}
+
+.site-content {
+    background-color: white;
+    margin: 20px 20% 10px;
+
+}
+
+.header {
+    display: flex;
+    margin: 20px 10px 10px;
+
+}
+
+.logo {
+    flex: 20%;
+    width: 60px;
+    margin-top: 10px;
+
+}
+img {
+    height: 50px;
+    width: 200px;
+}
+h2 {
+    flex: 30%;
+    text-align: center;
+    color: green;
+    padding-top: 11px;
+}
+
+.nav {
+    flex: 40%;
+}
+
+.nav-container {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: green;
+    padding:5px;
+    font-size: 19px;
+    float: left;
+    margin-top: 16px;
+}
+
+.container {
+    display: flex;
+    margin: 40px 2% 0;
+}
+
+.container-left {
+    flex: 68%;
+    
+
+}
+
+.container-right {
+    flex: 26%;
+    margin: 0% 0% 0% 2%;
+}
+
+
+p {
+    text-align: justify;
+
+}
+
+h3{
+    color: midnightblue;
+}
+
+.head-img {
+    width: 98%;
+    height: 250px;
+}
+
+.left-layout {
+    border: 1px solid gray;
+    margin-top: 50px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+}
+
+h4 {
+    margin-left: 5px;
+    font-size: 16px;
+    color: green;
+    text-transform: uppercase;
+}
+
+.red {
+    text-decoration: none;
+    color: red;
+    background-color:transparent;
+}
+
+li .red:hover {
+    color: grey;
+    text-transform: uppercase;
+}
+
+.red:active {
+    color: yellow;
+
+}
+
+
+.footer {
+    margin-left: 2%;
+}
